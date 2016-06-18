@@ -1,0 +1,1 @@
+"use strict";angular.module("mainApp",["ui.bootstrap"]),$(".carousel").carousel({interval:8e3});
