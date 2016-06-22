@@ -1,0 +1,50 @@
+.section-portfolios {
+  img {
+    width: 100%;
+  }
+  .portfolio-title-wrap {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .txt-portfolios-title {
+    margin-bottom: 0px;
+  }
+
+  .title-basestation {
+    img {
+      width: 75px;
+    }
+  }
+}
+
+.portfolio-wrap {
+  padding: 0px;
+  cursor: pointer;
+
+  &:hover > .portfolio-hover{
+    opacity: 1;
+  }
+}
+
+.portfolio-hover {
+  text-align: left;
+  background-color: #FC782B;
+  transition: opacity .5s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  overflow: hidden;
+
+  h2 {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    height: 345px;
+    line-height: 345px;
+    margin: 0px;
+  }
+}
