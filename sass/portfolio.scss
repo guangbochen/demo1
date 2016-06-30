@@ -28,7 +28,6 @@
 }
 
 .portfolio-hover {
-  text-align: left;
   background-color: #FC782B;
   transition: opacity .5s;
   position: absolute;
@@ -44,7 +43,8 @@
     text-align: center;
     text-transform: uppercase;
     height: 345px;
-    line-height: 345px;
+    line-height: 1.5;
     margin: 0px;
+    padding: 100px 0;
   }
 }
